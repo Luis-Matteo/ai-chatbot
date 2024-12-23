@@ -98,7 +98,6 @@ export function RunCodeButton({
       }
     }
   }, [pyodide, codeContent, isPython, setConsoleOutputs, updateConsoleOutput]);
-  // console.log('Develop Mode')
   return (
     <Button
       variant="outline"
